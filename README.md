@@ -3,7 +3,7 @@
 A Laravel application that helps a user understand how much quantity of a product is available for use.
 
 ## Specs
-Laravel Framework 8.83.23
+Laravel Framework 8.83.23<br>
 PHP 7.3 or above
 
 ### Application Setup
@@ -42,7 +42,10 @@ php artisan db:seed
 ```
 
 ### Application Run
-Open your browser and go to: https://figured_assessment_gerard_reyes.test/
+Open your browser and go to: 
+```
+https://figured_assessment_gerard_reyes.test/
+```
 
 ## Code Overview
 > The application should display an interface with a button and a single input that represents the requested quantity of a product.
