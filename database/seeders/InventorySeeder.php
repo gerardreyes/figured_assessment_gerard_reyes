@@ -24,6 +24,7 @@ class InventorySeeder extends Seeder
                     'transaction_date' => Carbon::createFromFormat('d/m/Y', $data[0])->format('Y-m-d'),
                     'type' => $data[1],
                     'quantity' => $data[2],
+                    'balance' => $data[2],
                     'unit_price' => !empty($data[3]) ? $data[3] : 0,
                     'created_at' => Carbon::now(),
                     'updated_at' => Carbon::now(),

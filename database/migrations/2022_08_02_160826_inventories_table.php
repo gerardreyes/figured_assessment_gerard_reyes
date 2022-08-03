@@ -20,6 +20,7 @@ class InventoriesTable extends Migration
                 $table->date('transaction_date')->nullable();
                 $table->string('type')->nullable();
                 $table->integer('quantity')->nullable();
+                $table->integer('balance')->nullable();
                 $table->decimal('unit_price', 8, 2)->nullable();
                 $table->timestamps();
             });
