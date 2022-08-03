@@ -70,6 +70,9 @@ https://figured_assessment_gerard_reyes.test/
 * database/seeders/InventorySeeder.php - Seeder file to populate inventories table.
 * app/Models/Inventory.php - Model file for Inventory.
 * app/Http/controllers/InventoryController - Controller for Inventory.
+* tests/Feature/InventoryTest.php - Unit Test.
+* resource/views/index.blade.php - Main view file.
+* routes/web.php - Route file for web.
 * Laravel UI v3.4 (https://github.com/laravel/ui)
 
 ## Testing
