@@ -90,4 +90,5 @@ or
 Feel free to email gerardreyes112@gmail.com for any inquiries regarding this project.
 
 ## License
-https://github.com/gerardreyes
+* GNU General Public License v3.0
+* https://github.com/gerardreyes
