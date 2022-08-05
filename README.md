@@ -29,6 +29,9 @@ valet park
 # If you would like to serve a site over encrypted TLS using HTTP/2, run secure.
 valet secure figured_assessment_gerard_reyes
 
+# If you have trouble running after .env has been created, try command below:
+php artisan config:cache
+
 # To compile your fresh scaffolding.
 npm install && npm run dev
 ```
